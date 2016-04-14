@@ -1,1 +1,6 @@
+# -*- mode: org; -*-
+
 A repository for learning Ruby
+
+* <2016-04-15 Fri> How many commands you have?
+  [[./count-commands-in-path.rb]]
