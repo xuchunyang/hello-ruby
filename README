@@ -4,3 +4,8 @@ A repository for learning Ruby
 
 * <2016-04-15 Fri> How many commands you have?
   [[./count-commands-in-path.rb]]
+
+* <2016-04-15 Fri> Guess a number in [1, 100]
+  [[./guess-number.rb]]
+
+* TODO 今天是农历几月几号?
