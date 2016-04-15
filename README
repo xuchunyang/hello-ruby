@@ -16,6 +16,6 @@ A repository for learning Ruby
 
   Use =/usr/share/dict/words= as dictionary.
 
-* TODO 输入一汉字，输出其在《新华大字典》中页码（比如“爱”在第四页）
+* DONE <2016-04-15 Fri> 输入一汉字，输出其在《新华大字典》中页码（比如“爱”在第四页）
 
   [[https://www.amazon.cn/新华大字典/dp/B00VFGBF6Q/ref=sr_1_1?s=books&ie=UTF8&qid=1460712862&sr=1-1&keywords=新华大字典][新华大字典 第一版修订版 - Amazon]]
