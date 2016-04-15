@@ -2,10 +2,20 @@
 
 A repository for learning Ruby
 
-* <2016-04-15 Fri> How many commands you have?
+* DONE <2016-04-15 Fri> How many commands you have?
+
   [[./count-commands-in-path.rb]]
 
-* <2016-04-15 Fri> Guess a number in [1, 100]
+* DONE <2016-04-15 Fri> Guess a number in [1, 100]
+
   [[./guess-number.rb]]
 
 * TODO 今天是农历几月几号?
+
+* TODO Spell check English word
+
+  Use =/usr/share/dict/words= as dictionary.
+
+* TODO 输入一汉字，输出其在《新华大字典》中页码（比如“爱”在第四页）
+
+  [[https://www.amazon.cn/新华大字典/dp/B00VFGBF6Q/ref=sr_1_1?s=books&ie=UTF8&qid=1460712862&sr=1-1&keywords=新华大字典][新华大字典 第一版修订版 - Amazon]]
