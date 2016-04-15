@@ -6,7 +6,9 @@ abort("Missing Argument") unless ARGV[0]
 
 pinyin = Pinyin.t(ARGV[0])
 
-File.open("./xinhua-da-zidian-pinyin.txt") do |file|
+DATA_FILE = File.expand_path("Projects/hello-ruby/xinhua-da-zidian-pinyin.txt", "~")
+
+File.open(DATA_FILE) do |file|
   file.each_line do |line|
     if line.split[0] == pinyin
       puts line
