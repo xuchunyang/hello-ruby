@@ -12,9 +12,11 @@ A repository for learning Ruby
 
 * TODO 今天是农历几月几号?
 
-* TODO Spell check English word
+* DONE <2016-04-16 Sat> Spell check English word
 
   Use =/usr/share/dict/words= as dictionary.
+
+  [[./spell-check.rb]]
 
 * DONE <2016-04-15 Fri> 输入一汉字，输出其在《新华大字典》中页码（比如“爱”在第四页）
 
