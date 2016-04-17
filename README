@@ -25,3 +25,7 @@ A repository for learning Ruby
   [[./xinhua-da-zidian-search.rb]]
 
 * TODO Write a command line tool to manage Emacs packages
+
+* DONE <2016-04-17 Sun> Implement a simple version of ls(1)
+
+  [[./ls.rb]]
