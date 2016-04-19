@@ -29,3 +29,7 @@ A repository for learning Ruby
 * DONE <2016-04-17 Sun> Implement a simple version of ls(1)
 
   [[./ls.rb]]
+
+* DONE <2016-04-19 Tue> Implement a simple version of grep(1)
+
+  [[./grep.rb]]
