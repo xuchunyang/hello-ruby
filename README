@@ -43,3 +43,7 @@ A repository for learning Ruby
   #+BEGIN_SRC sh
     echo -n 'a\nb\n\nc' | ruby -n -e 'BEGIN { i = 0 }; puts $_ == "\n" ? $_ : (i += 1; format "%6d  #{$_}", i);'
   #+END_SRC
+
+* DONE <2016-04-22 Fri> Implement a simple version of wc(1)
+
+  [[./wc.rb]]
