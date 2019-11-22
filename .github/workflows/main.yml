@@ -27,6 +27,7 @@ jobs:
             </body>
           </html>
           EOL
+        run: emacs ../*.org --batch -f org-html-export-to-html --kill && mv *.html index.html
     -
         name: Deploy
         if: success()
