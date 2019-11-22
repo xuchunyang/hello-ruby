@@ -120,7 +120,7 @@
 
 * xmlgen
 
-#+BEGIN_SRC elisp :results drawer
+#+BEGIN_SRC elisp :results value raw :wrap EXAMPLE
 ((lambda (string)
    "Prettify HTML in STRING."
    (with-temp-buffer
@@ -139,7 +139,7 @@
 #+END_SRC
 
 #+RESULTS:
-:RESULTS:
+#+BEGIN_EXAMPLE
 <html>
   <head>
     <title>Example Domain
@@ -157,7 +157,7 @@
     </p>
   </body>
 </html>
-:END:
+#+END_EXAMPLE
 
 * xor
 
