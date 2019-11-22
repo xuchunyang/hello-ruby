@@ -18,7 +18,7 @@ jobs:
           curl -O https://raw.githubusercontent.com/hniksic/emacs-htmlize/master/htmlize.el
     -
         name: Build
-        run: emacs *.org --batch -l htmlize.el -f org-html-export-to-html && ls && mkdir build && mv *.html build/index.html
+        run: emacs *.org --batch -l htmlize.el -f org-html-export-to-html && ls && mkdir public && mv *.html public/index.html
     -
         name: Deploy
         if: success()
