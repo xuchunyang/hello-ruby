@@ -14,19 +14,6 @@ jobs:
         version: 26.3
     -
         name: Build
-        run: |
-          mkdir public
-          cat > public/index.html <<EOL
-          <!doctype html>
-          <html>
-            <head>
-              <title>GitHub Pages deployed!</title>
-            </head>
-            <body>
-              <p>GitHub Pages with <strong>${{ github.sha }}</strong> commit ID has been deployed through <a href="https://github.com/marketplace/actions/github-pages">GitHub Pages action</a> successfully.</p>
-            </body>
-          </html>
-          EOL
         run: emacs ../*.org --batch -f org-html-export-to-html --kill && mv *.html index.html
     -
         name: Deploy
