@@ -14,7 +14,7 @@ jobs:
         version: 26.3
     -
         name: Build
-        run: emacs ../*.org --batch -f org-html-export-to-html --kill && ls && mv ../*.html index.html
+        run: emacs *.org --batch -f org-html-export-to-html && ls && mkdir build && mv *.html build/index.html
     -
         name: Deploy
         if: success()
