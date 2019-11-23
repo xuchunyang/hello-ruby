@@ -12,6 +12,11 @@ jobs:
     - uses: purcell/setup-emacs@master
       with:
         version: 26.3
+    - name: Check env
+      run: |
+          make --version
+          autoconf --version
+          makeinfo --version    
     -
         name: htmlize
         run: |
